@@ -2,15 +2,13 @@ body {
     margin: 0;
     background-color: beige;
     font-family: 'ubuntu', Arial, Helvetica, sans-serif;
-   
-
 }
 
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left:  3%;
+    padding-left:  2%;
 }
 
 header div {
@@ -22,7 +20,7 @@ header div {
 
 header img {
     width: 35%;
-    max-width: 150px;
+    max-width: 120px;
 }
 
 header p {
@@ -33,6 +31,7 @@ header p {
 header h1 {
     margin-bottom: 6%;
     font-family: 'coiny', Arial, Helvetica, sans-serif;
+    line-height: 31px;
 }
 
 main {
@@ -41,7 +40,6 @@ main {
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
-
 }
 
 main div {
@@ -60,13 +58,12 @@ main img {
 
 footer {
     background-color: #3F404B;
-    padding: 3%;
     text-align: center;
     color: white;
-    font-size: 120%;
+    font-size: 110%;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer div {
@@ -78,8 +75,22 @@ footer p {
 }
 
 footer .contato p:nth-child(2) {
-    font-size: 180%;
-    margin: 3%;
+    font-size: 170%;
+    margin: 3%; 
+}
+
+.contato a {
+    text-decoration: none;
+    color: white;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color:tomato;
 }
 
 @media (min-width: 768px) {
